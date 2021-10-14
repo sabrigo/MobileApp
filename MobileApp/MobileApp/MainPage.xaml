@@ -7,7 +7,7 @@
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Error Sample" HorizontalTextAlignment="Center" TextColor="White" />
         </Frame>
-        <Button Text="Click me" x:Name="BtnUpdate" />
+        <Button Text="Click me" x:Name="BtnUpdate" />        
     </StackLayout>
 
 </ContentPage>
