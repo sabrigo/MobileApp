@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Foundation;
 using UIKit;
 
 namespace MobileApp.iOS
@@ -16,7 +12,7 @@ namespace MobileApp.iOS
             // you can specify it here.
             try
             {
-                UIApplication.Main(args, null, "AppDelegate");
+                UIApplication.Main(args, null,  typeof(AppDelegate));
             }
             catch (Exception ex)
             {

@@ -1,6 +1,6 @@
-﻿using System.IO;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using SQLite;
+using System.IO;
 
 namespace MobileApp
 {

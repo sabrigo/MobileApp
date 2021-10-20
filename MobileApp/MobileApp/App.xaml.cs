@@ -1,7 +1,7 @@
-﻿using Xamarin.Forms;
-using Microsoft.AppCenter;
+﻿using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using Xamarin.Forms;
 
 namespace MobileApp
 {
@@ -17,7 +17,7 @@ namespace MobileApp
         protected override void OnStart()
         {
             // TODO: add your appcenter key
-            AppCenter.Start("ios=<please add your appcenter key>", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("ios=<your app center key>", typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
